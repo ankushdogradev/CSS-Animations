@@ -1,0 +1,42 @@
+img {
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  transition: transform 2s;
+
+  /* IMGAE ORIGIN  */
+  /* transform-origin: top; /*CENTER TOP */
+  /* transform-origin: right; /*CENTER RIGHT */
+  /* transform-origin: left; /* CENTER LEFT */
+  /* transform-origin: right; /* CENTER RIGHT */
+  /* transform-origin: top-right; /* TOP RIGHT */
+  /* transform-origin: bottom-right; /* BOTTOM RIGHT */
+  /* transform-origin: top-right; /* TOP LEFT */
+  /* transform-origin: bottom-right; /* BOTTOM LEFT */
+}
+
+img:hover {
+  /* MOVE IMGAE HORIZONTALLY OR VERTICALLY */
+  /* transform: translateX(500px); /*Move Right */
+  /* transform: translateY(500px); /*Move Downwords */
+  /* transform: translateX(-500px); /*Move Left */
+  /* transform: translateY(-500px); /*Move Upwords */
+  /* transform: translate(500px, 500px); Move Diagonally: bottom right */
+
+  /* SCALE IMGAE */
+  /* transform: scaleX(1); */
+  /* transform: scaleY(1); */
+  /* transform: scale(1); */
+
+  /* ROTATE IMAGE */
+  /* transform: rotate(360deg); */
+  /* transform: rotate(-0.5turn); */
+  /* transform: rotate(200grad); */
+
+  /* STRETCH IMGAGES LIKE PARALLELOGRAM */
+  /* transform: skewX(-30deg); */
+  /* transform: skewY(30deg); */
+  /* transform: skew(30deg, 40deg); */
+
+  transform: rotate(45deg);
+}

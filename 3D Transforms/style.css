@@ -1,0 +1,21 @@
+body {
+  /* Distance Between the viewer and the screen */
+  perspective: 500px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  transition: transform 2s;
+}
+
+img:hover {
+  /* translate in 3D */
+  /* transform: translateZ(300px); */
+
+  /* Rotate in 3D */
+  transform: rotateX(120deg);
+  /* transform: rotateY(120deg); */
+  /* transform: rotateZ(120deg); */
+}

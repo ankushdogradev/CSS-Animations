@@ -1,0 +1,70 @@
+/* 
+# transition-timing-function: how the change in the property will occur:
+    1. ease: the change starts slow then go faster then finishes slow.
+    2. linear: the change occurs at the same rate.
+    3. ease-in: the change starts slow then go faster before the end.
+    4. ease-out: the change starts fast then slows down before the end.
+    5. ease-in-out: the change starts slow then go faster before finishes slow.
+*/
+
+button {
+  height: 90px;
+  width: 290px;
+  font-size: 28px;
+  color: white;
+  border: none;
+  background-color: blue;
+  /* transition-property: background-color color; */
+
+  /* transition-property: all;
+  transition-duration: 1s; */
+
+  /* transition-delay: 1s; */
+
+  transition: all 3s ease-in 2s;
+}
+
+button:hover {
+  background-color: green;
+  color: black;
+  border-radius: 50%;
+}
+
+/* .move {
+  margin: 2em;
+  width: 150px;
+  height: 50px;
+  padding: 10px 15px;
+  background-color: rebeccapurple;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 0.5em;
+  font-size: 20px;
+  transition-property: translate();
+  transition-duration: 3s;
+}
+
+#ease {
+  transition-timing-function: ease;
+}
+
+#linear {
+  transition-timing-function: linear;
+}
+
+#ease-in {
+  transition-timing-function: ease-in;
+}
+
+#ease-out {
+  transition-timing-function: ease-out;
+}
+
+#ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+
+.move:hover {
+  transform: translate(900px, 0);
+} */
